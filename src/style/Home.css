@@ -1,0 +1,36 @@
+.name {
+    font-size: 60px;
+}
+
+.occupation {
+    font-size: 25px;
+}
+
+.about {
+    margin:auto;
+    padding:18px;
+}
+
+.description{
+    text-indent: 50px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    color: black;
+    background-color: green;
+    padding: 12px;
+    margin: 10px;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.contactForm {
+    margin: auto;
+    background-color: #ffff;
+}
