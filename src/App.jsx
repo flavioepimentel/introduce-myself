@@ -9,13 +9,13 @@ function App() {
         <img href='#' />
         <ul>
           <li>
-            <a href="https://wa.me/message/RMPN3E5VLSP4L1"> WhatsApp</a> 
+            <a target="_blank" href="https://wa.me/message/RMPN3E5VLSP4L1" rel="noreferrer"> WhatsApp</a> 
             </li>
           <li>
-            <a href='https://www.linkedin.com/in/flavioepimentel/'>Linkedin</a>
+            <a target="_blank" href='https://www.linkedin.com/in/flavioepimentel/' rel="noreferrer">Linkedin</a>
             </li>
           <li> 
-            <a href='https://github.com/flavioepimentel'>Github</a>
+            <a target="_blank" href='https://github.com/flavioepimentel' rel="noreferrer">Github</a>
           </li>
         </ul>
       </header>
