@@ -55,12 +55,12 @@ function App() {
         <navbar>
           <ul>
             <li className="button">
-              <a target="_blank" href="#" rel="noreferrer">
+              <a className='a-button' href="#">
                 WORKS
               </a>
             </li>
             <li className="button">
-              <a target="_blank" href="#" rel="noreferrer">
+              <a className='a-button' href="#">
                 SOBRE
               </a>
             </li>
