@@ -1,10 +1,13 @@
 import React from "react";
 import "../style/Home.css";
-import Form from '../components/form'
+import Form from "../components/form";
+import Navbar from "../components/navbar";
 
 class Home extends React.Component {
   render() {
     return (
+      <>
+      <Navbar />
       <main>
         <section>
           <div>
@@ -27,6 +30,7 @@ class Home extends React.Component {
           <Form />
         </section>
       </main>
+      </>
     );
   }
 }
