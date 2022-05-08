@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Home.css";
-import sta from "../midia/sta.svg";
+import Form from '../components/form'
 
 class Home extends React.Component {
   render() {
@@ -24,28 +24,7 @@ class Home extends React.Component {
               </p>
             </div>
           </div>
-          <div className="divForm">
-            <img className="seta" src={sta} />
-            <h3>Deixe seu contato</h3>
-            <form className="contactForm">
-              <input type="text" placeholder="Qual o seu nome?" />
-              <br />
-              <input type="text" placeholder="E-mail" />
-              <br />
-              <input type="text" placeholder="Que empresa você representa?" />
-              <br />
-              <textarea
-                className="longText"
-                type="text"
-                placeholder="Deixe aqui a sua mensagem."
-              />
-              <br />
-            </form>
-            <button type="submit" className="button">
-              Enviar
-            </button>
-            <br />
-          </div>
+          <Form />
         </section>
       </main>
     );
