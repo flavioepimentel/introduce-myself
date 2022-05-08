@@ -2,7 +2,6 @@ import React from "react";
 import sta from "../midia/sta.svg";
 import "../style/Home.css";
 
-
 class Form extends React.Component {
   render() {
     return (
