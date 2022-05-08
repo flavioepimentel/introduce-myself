@@ -1,15 +1,14 @@
 main{
-    position: relative;
-    overflow: hidden;
+    justify-content: center;
 }
 
 section {
+    align-items: center;
+    justify-content: center;
     margin: auto;
     margin-top: 10px;
     width: 43em;
 }
-
-
 
 .name {
     font-size: 60px;
@@ -27,18 +26,6 @@ section {
     box-shadow: 0 0 1rem rgb(0, 0, 0, .5);
     width: 45em;
     background: inherit;
-
-}
-
-.about:before{
-    content: "";
-    position: absolute;
-    background: inherit;
-
-
-    width: 45em;
-    margin: auto;
-    height: 15em;
 
 }
 
@@ -71,10 +58,20 @@ button {
     margin: 10px;
     width: 80px;
     border-radius: 6px;
+    transition:230ms;
+    cursor: pointer;
+    font-weight: 900;
+    border:none;
+}
+
+button:hover {
+    background-color: rgb(0, 98, 128);
+
 }
 
 .divForm {
     margin: auto;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -85,6 +82,8 @@ input {
     border-radius: 5px;
     color: black;
     text-align: start;
+    z-index: 3;
+
 }
 
 textarea {
@@ -98,6 +97,14 @@ textarea {
 .seta {
     width: 20px;
     height: 20px;
+    animation: blink 1.367s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+    
 }
 
 .contactForm {
@@ -107,3 +114,62 @@ textarea {
 .longText {
     height: 140px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .about {
+      width: 80%;
+  }
+  .description {
+      width: 100%;
+      margin: 0px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+    .about {
+        width: 80%;
+    }
+    .description {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        font-size: 25px;
+
+    }
+    .name {
+        font-size: 45px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .occupation {
+        font-size: 30px;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .name {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .occupation {
+        font-size: 20px;
+        text-align: center;
+    }
+    .about {
+        width: 50%;
+    }
+    .description {
+        width: 100%;
+        font-size: 25px;
+
+    }
+
+    input {
+        width: 50%;
+    }
+
+    textarea{
+        width: 50%;
+    }
+  }
