@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
+import "../style/Home.css";
 
-
-class Sobre extends React.Component{
+class Sobre extends React.Component {
   render() {
-      return(
-           <div />);
+    return (
+      <main>
+        <div>
+          <p>Ola</p>
+        </div>
+      </main>
+    );
+  }
 }
-}
-export default Sobre
+
+export default Sobre;
