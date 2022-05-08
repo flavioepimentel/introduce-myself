@@ -1,12 +1,18 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Works from "./pages/Works";
+import Sobre from "./pages/Sobre";
 
 function AppRoutes() {
   return (
-    <Routes>
-      <Route path={"/"} component={Home} exact></Route>
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} exact />
+        <Route path="works" element={<Works />} exact />
+        <Route path="sobre" element={<Sobre />} exact />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

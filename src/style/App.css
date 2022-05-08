@@ -27,6 +27,16 @@ li {
   padding: 5px;
 }
 
+header ul li a{
+  transition: 300ms;
+}
+
+.link-contact:hover {
+  color: rgb(182, 177, 177);
+  text-decoration: underline;
+}
+
+
 a {
   /* Removendo o subilinhado */
   text-decoration: none;   
@@ -47,23 +57,78 @@ li.button {
   margin-inline: 5px;
   margin-bottom: 2.5px;
   background-color:dimgray ;
+  transition: 350ms;
 }
+
+li.button:hover{
+  background-color: aliceblue;
+}
+
+.a-button:hover {
+  color: black;
+}
+
 
 video {
+  position:fixed;
+  z-index: -1;
   opacity: 73%;
-  overflow: hidden;
-  z-index: -2;
-  position: fixed;
+  margin:auto;
+  width: 100%;
+
 }
 
-navbar {
+.navbar {
   display: flex;
   justify-content: center;
 }
 
-navbar ul {
+.navbar ul {
   display: flex;
   
 
+}
+
+@media (max-aspect-ratio: 16/9) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  video{
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  video{
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  video{
+    display: none;
+  }
+  
+  header {
+    justify-content: center;
+  }
+
+  .li-links {
+    padding: 15px;
+  }
+
+  body{
+    display: flex;
+    background: #1a6177;
+    justify-content: center;
+    margin:auto;
+    width: 100%;
+    height: auto;
+
+  }
 }
 
