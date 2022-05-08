@@ -49,6 +49,14 @@ li.button {
   background-color:dimgray ;
 }
 
+li.button:hover{
+  background-color: aliceblue;
+}
+
+.a-button:hover {
+  color: black;
+}
+
 video {
   opacity: 73%;
   overflow: hidden;
