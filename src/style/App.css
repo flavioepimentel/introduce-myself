@@ -6,15 +6,30 @@
   color: azure;
 }
 
+header {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+header ul {
+  display: flex;
+
+}
+
 ul{
   /* Removendo os pontos das listas */
   list-style: none;
 }
 
+li {
+  font-size: larger;
+  padding: 5px;
+}
+
 a {
   /* Removendo o subilinhado */
-  text-decoration: none;
-    
+  text-decoration: none;   
 }
 
 body {
@@ -23,3 +38,32 @@ body {
   background: linear-gradient(to right, #22c1c3, #fdbb2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  
 }
+
+li.button {
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.2ch;
+  border-radius: 5px;
+  margin-inline: 5px;
+  margin-bottom: 2.5px;
+  background-color:dimgray ;
+}
+
+video {
+  opacity: 73%;
+  overflow: hidden;
+  z-index: -2;
+  position: fixed;
+}
+
+navbar {
+  display: flex;
+  justify-content: center;
+}
+
+navbar ul {
+  display: flex;
+  
+
+}
+
