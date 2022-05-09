@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/Home.css";
-import Video from "../components/homeBackground";
 
 
 class Navbar extends React.Component {
   render() {
     return (
       <>
-      <Video />
         <header>
           <div className="links">
             <ul className="ul-links">
