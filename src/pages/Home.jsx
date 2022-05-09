@@ -2,11 +2,14 @@ import React from "react";
 import "../style/Home.css";
 import Form from "../components/form";
 import Navbar from "../components/navbar";
+import Video from "../components/homeBackground";
+
 
 class Home extends React.Component {
   render() {
     return (
       <>
+      <Video />
       <Navbar />
       <main>
         <section>

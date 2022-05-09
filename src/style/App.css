@@ -85,8 +85,6 @@ video {
 
 .navbar ul {
   display: flex;
-  
-
 }
 
 @media (max-aspect-ratio: 16/9) {
@@ -95,6 +93,7 @@ video {
     margin: 0;
     box-sizing: border-box;
   }
+  
   video{
     height: 100%;
     width: auto;
