@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Home.css";
+import "../style/Navbar.css";
 
 const introvideo = require("../midia/introvideo.mp4");
 const post = require("../midia/post.png");
