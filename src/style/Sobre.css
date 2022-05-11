@@ -1,16 +1,32 @@
 html {
     background-color: #1a6177;
+    display: flexbox;
 
 }
 
-header {
-    background-color: #1a6177;
+
+img{
+    display: flexbox;
+    flex-direction: column;
 }
 
-nav.navbar{
+div.div-info {
     background-color: #1a6177;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-p {
-    background-color: #1a6177;
+.titulo-info {
+    font-size: 23px;
+    color: whitesmoke;
+}
+
+.texto-sobre {
+    font-size: 18px;
+    width: 800px;
+    text-align: justify;
+}
+
+.lista-ferramentas {
 }
