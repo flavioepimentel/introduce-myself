@@ -16,10 +16,11 @@ class Sobre extends React.Component {
         <h1>Flávio E. Pimentel</h1>
         <div className="div-info">
           <h3 className="titulo-info">Sobre</h3>
-          <p className="texto-sobre"></p>
+          <p className="texto-sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores quam excepturi, accusamus voluptatem cupiditate porro sunt minima animi suscipit tempora? Exercitationem, deserunt. Veniam minus at voluptas reprehenderit debitis quos?
+          Quo molestias sint, corporis totam culpa ipsam eum pariatur saepe praesentium dicta nulla quas inventore nisi voluptates quasi! Corrupti deleniti recusandae harum voluptate quis sint laborum cupiditate quod, eum cumque?</p>
         </div>
         <div className="div-info">
-          <h3>Skills</h3>
+          <h3 className="titulo-info">Skills</h3>
           <ul>
           <li>Backend com NodeJS, Python, SQL e MongoDB</li>
           <li>Frontend com ReactJS, HTML5, CSS3, Ionic</li>
@@ -28,7 +29,7 @@ class Sobre extends React.Component {
         </div>
         <div className="div-info">
           <h3 className="titulo-info">Ferramentas / Nível</h3>
-          <ul>
+          <ul className="lista-ferramentas">
             <li>Python</li>
             <li>JavaScript</li>
             <li>Django</li>
