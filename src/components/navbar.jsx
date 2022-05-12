@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../style/Home.css";
+import coffe from "../midia/coffe.svg";
 
+import "../style/Home.css";
 
 class Navbar extends React.Component {
   render() {
@@ -43,18 +44,19 @@ class Navbar extends React.Component {
             </ul>
           </div>
         </header>
+        <Link to={"/"}>
+          <div className="coffe-div">
+            <img className="coffe" src={coffe} alt="Marque um café" />
+          </div>
+        </Link>
         <nav className="navbar">
           <ul>
-            <li className="button">
-              <Link className="a-button" to={"/works"}>
-                WORKS
-              </Link>
-            </li>
-            <li className="button">
-              <Link className="a-button" to={"/sobre"}>
-                SOBRE
-              </Link>
-            </li>
+            <Link className="a-button" to={"/works"}>
+              <li className="button">WORKS</li>
+            </Link>
+            <Link className="a-button" to={"/sobre"}>
+              <li className="button">SOBRE</li>
+            </Link>
           </ul>
         </nav>
       </>
