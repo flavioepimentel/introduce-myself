@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import coffe from "../midia/coffe.svg";
-
 import "../style/Home.css";
+import Video from "./video";
 
-class Navbar extends React.Component {
+class NavVideo extends React.Component {
   render() {
     return (
       <>
+        <Video />
         <header>
           <div className="links">
             <ul className="ul-links">
@@ -44,11 +44,6 @@ class Navbar extends React.Component {
             </ul>
           </div>
         </header>
-        <Link to={"/"}>
-          <div className="coffe-div">
-            <img className="coffe" src={coffe} alt="Marque um café" />
-          </div>
-        </Link>
         <nav className="navbar">
           <ul>
             <Link className="a-button" to={"/works"}>
@@ -64,4 +59,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default NavVideo;

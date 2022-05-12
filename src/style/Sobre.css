@@ -1,16 +1,57 @@
-html {
-    background-color: #1a6177;
+.profile-user {
+    /* background-image: url('../midia/me.jpeg'); */
+    background-size: cover;
+
+    margin-left: 20px;
+    margin-bottom: 10px;
 
 }
 
-header {
-    background-color: #1a6177;
+.profile {
+    display: inline-block;
+    height: auto;
+    border-radius: 50%;
+    border: 3.5px solid rgba(0, 0, 0, 0.5);
+
 }
 
-nav.navbar{
-    background-color: #1a6177;
+h1 {
+    display: inline-block;
+    text-shadow: 3px 3px black ;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+.sobre-section {
+}
+
+div.div-info {
+    display: inline-block;
+    /* flex-direction: column;
+    justify-content: flex-end; */
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.603), inset 0 0 2000px rgba(146, 141, 141, 0.404);
+    width: 850px;
+    border-radius: 6px;
+
 }
 
 p {
-    background-color: #1a6177;
+    padding: 5px;
+}
+
+.titulo-info {
+    font-size: 23px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black ;
+    margin-bottom: 5px;
+}
+
+.texto-sobre {
+    font-size: 18px;
+    width: 800px;
+    text-align: justify;
+}
+
+.lista-ferramentas {
 }
