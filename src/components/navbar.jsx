@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import coffe from "../midia/coffe.svg";
+import coffe from "../midia/coffe.png";
 
 import "../style/Home.css";
 
