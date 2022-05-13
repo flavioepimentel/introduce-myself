@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import "../style/Sobre.css";
-import me from "../midia/me.jpg"
+import me from "../midia/me.jpg";
 
 class Sobre extends React.Component {
   render() {
@@ -55,12 +55,16 @@ class Sobre extends React.Component {
                   <li>Web2py</li>
                   <li>NodeJS</li>
                   <li>React</li>
+                </ul>
+                <ul className="lista-ferramentas">
                   <li>TypeScript</li>
                   <li>Jupyter Notebook</li>
                   <li>Scrapy</li>
                   <li>SkLearn, MatplotLib e Seaborn</li>
                   <li>Ionic</li>
                   <li>AdonisJS</li>
+                </ul>
+                <ul className="lista-ferramentas">
                   <li>C# e .NET</li>
                   <li>MySQL e SQLite</li>
                   <li>MongoDB</li>
@@ -82,17 +86,16 @@ class Sobre extends React.Component {
               <div className="div-info">
                 <ul>
                   <li>
-                <h4>Engenharia de Produção</h4>
-                <p>(2014 - 2021)</p>
-                <p>Faculdade Anísio Teixeira</p>
-                </li>
-                <li>
-                <h4>Análise e Desenvolvimento de Sistemas</h4>
-                <p>(2022 - 2027)</p>
-                <p>Universidade Nove de Julho</p>
-                </li>
+                    <h4>Engenharia de Produção</h4>
+                    <p>(2014 - 2021)</p>
+                    <p>Faculdade Anísio Teixeira</p>
+                  </li>
+                  <li>
+                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                    <p>(2022 - 2027)</p>
+                    <p>Universidade Nove de Julho</p>
+                  </li>
                 </ul>
-
               </div>
             </section>
             <br />

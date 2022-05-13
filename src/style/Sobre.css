@@ -54,4 +54,7 @@ p {
 }
 
 .lista-ferramentas {
+    display: inline-block;
+    margin: 4%;
+    align-items:flex-start;
 }
