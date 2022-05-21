@@ -10,11 +10,14 @@ class Sobre extends React.Component {
         <div className="sobre">
           <Navbar />
           <main className="sobre-main">
-            <div className="profile-user">
-              <img src={me} alt="Me" className="profile"></img>
-            </div>
-            <h1>Flávio E. Pimentel</h1>
+          <div className="profile-user col-1">
+            <img src={me} alt="Me" className="profile"></img>
+          <h1>Flávio E. Pimentel</h1>
+
+          </div>
+
             <br />
+            <div className="col-2">
             <section className="sobre-section">
               <h3 className="titulo-info">Sobre</h3>
               <div className="div-info">
@@ -38,7 +41,7 @@ class Sobre extends React.Component {
                   <li>Backend com NodeJS, Python, SQL e MongoDB</li>
                   <li>Frontend com ReactJS, HTML5, CSS3, Ionic</li>
                   <li>
-                    Ciência de dados com Scrapy, Requests, REST API, MitmiProxy
+                    Ciência de dados com Scrapy, Requests, REST API, Mitm Proxy
                     and GoogleSheets
                   </li>
                 </ul>
@@ -98,6 +101,7 @@ class Sobre extends React.Component {
                 </ul>
               </div>
             </section>
+            </div>
             <br />
           </main>
         </div>
