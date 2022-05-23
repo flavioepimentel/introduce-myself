@@ -67,6 +67,7 @@ li.button {
 
 li.button:hover{
   background-color: aliceblue;
+  color: black;
   text-shadow:none;
 
 }
