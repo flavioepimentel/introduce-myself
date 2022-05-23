@@ -1,7 +1,6 @@
 import React from "react";
 import "../style/Works.css";
 import img from "../midia/Ativo 10.png";
-import { Link } from "react-router-dom";
 
 // import { Container } from './styles';
 const data = require("../data.json");
