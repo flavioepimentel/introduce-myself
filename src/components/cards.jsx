@@ -21,6 +21,7 @@ export default function Card() {
           <br />
 
           <a
+          className="card-titulo"
             target="_blank"
             href={dataMap[i]["data"][i]["link"]}
             rel="noreferrer"
@@ -28,7 +29,7 @@ export default function Card() {
             {dataMap[i]["data"][i]["titulo"]}
           </a>
 
-          <p>{dataMap[i]["data"][i]["description"]}</p>
+          <p className="card-description">{dataMap[i]["data"][i]["description"]}</p>
         </div>
       </section>
     );
