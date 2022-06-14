@@ -10,7 +10,9 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
+      - name: Action checkout in main
       - uses: actions/checkout@main
+      - name: Action install package
       - uses: actions/setup-node@main
         with:
           node-version: '16'
