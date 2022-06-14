@@ -7,12 +7,13 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+  check-bats-version:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@main
         with:
-          node-version: '16.x'
+          node-version: '16'
       - name: Build web-app
         run: |
           npm ci
