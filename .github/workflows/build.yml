@@ -10,7 +10,6 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - name: Action checkout in main
       - uses: actions/checkout@main
       - uses: actions/setup-node@main
         with:
