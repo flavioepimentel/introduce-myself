@@ -45,7 +45,7 @@ export default function Form() {
 
   return (
     <div className="divForm">
-      <img className="seta" src={sta} />
+      <img className="seta" src={sta} alt='' />
       <h3>Deixe seu contato</h3>
       <form className="contactForm" onSubmit={handleSubmit}>
         <input
