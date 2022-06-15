@@ -18,7 +18,7 @@ jobs:
           npm ci
           npm run build
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@main
+        uses: peaceiris/actions-gh-pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
