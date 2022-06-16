@@ -5,7 +5,7 @@ import axios from "axios";
 function sendGetRequest(url, domain) {
   const instance = axios.create({
     baseURL: url,
-    timeout: 60000,
+    timeout: 60000000,
     headers: {'X-Custom-Header': 'foobar'}
   });
 
