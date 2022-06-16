@@ -6,7 +6,7 @@ import Sobre from "./pages/Sobre";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="works" element={<Works />} exact />
