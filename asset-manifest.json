@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.02bf02a7.css",
-    "main.js": "./static/js/main.7470b0bc.js",
+    "main.js": "./static/js/main.17c7e874.js",
     "static/media/introvideo.mp4": "./static/media/introvideo.fef58b575d92da7c03f6.mp4",
     "static/media/post.png": "./static/media/post.231469bd90c29a3afb13.png",
     "static/media/Ativo 10.png": "./static/media/Ativo 10.d512f3094598b6a26f56.png",
@@ -10,10 +10,10 @@
     "static/media/sta.svg": "./static/media/sta.dcc0e5252498db1727ef99fc77275dcd.svg",
     "index.html": "./index.html",
     "main.02bf02a7.css.map": "./static/css/main.02bf02a7.css.map",
-    "main.7470b0bc.js.map": "./static/js/main.7470b0bc.js.map"
+    "main.17c7e874.js.map": "./static/js/main.17c7e874.js.map"
   },
   "entrypoints": [
     "static/css/main.02bf02a7.css",
-    "static/js/main.7470b0bc.js"
+    "static/js/main.17c7e874.js"
   ]
 }
