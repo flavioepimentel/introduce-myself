@@ -14,9 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - uses: jeanlescure/react-deploy-to-s3-action@v1.1.0
         with:
           node-version: ${{ matrix.node_version }}
+      - name: React Deploy to S3
+  # You may pin to the exact commit or the version.
+  # uses: jeanlescure/react-deploy-to-s3-action@5c5cffb04cf10e8ac735b5182be17915d8d5f5e0
+        uses: jeanlescure/react-deploy-to-s3-action@v1.1.0
       - name: Build web-app
         run: |
           npm ci
